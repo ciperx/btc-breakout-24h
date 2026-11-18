@@ -1,0 +1,3 @@
+node_modules/
+*.log
+staged_main.ts
