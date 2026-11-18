@@ -3,7 +3,7 @@
 // stop or after 240 bars. Between trades it sits in cash, so a falling window costs it nothing.
 import { BPS, runBars, type BarsState, type OrderInput } from './vendor/makefun-bars.ts';
 
-const LOOKBACK = 240n;
+const LOOKBACK = 240;
 const ENTRY_MARGIN = 25n;            // bps above the 240-bar high
 const FIRST_TARGET = 80n;           // bps on the entry price
 const FINAL_TARGET = 120n;
